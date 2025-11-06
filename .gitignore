@@ -1,0 +1,67 @@
+# Large data files - Do not upload to repository
+*.db
+*.pkl
+*.csv
+sqlite_table_descriptions.json
+tableinfos/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Model cache and embeddings
+model_cache/
+patient_indexes/
+table_index_dir/
+cache/
+*.pth
+*.bin
+*.onnx
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv
+
+# Environment variables
+.env
+.env.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.orig
+
+# Output files
+output/
+results/
+

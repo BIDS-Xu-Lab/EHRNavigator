@@ -1,0 +1,100 @@
+What was the Hemoglobin trend for this patient with id {person_id} during last year?
+How did the patient {person_id}'s White Blood Cell Count change over the course of their last visit?
+Can you track the ALT values of patient {person_id} in their last visit?
+What trajectory did CRP of patient {person_id} follow in the last visit?
+What was the Sodium trend for this patient {person_id} during their last visit?
+How did the patient {person_id}'s Potassium change over the course of their last visit?
+Can you track the Chloride values of patient {person_id} and describe the pattern?
+What trajectory did INR follow during this patient {person_id}'s every hospital encounter?
+What was the Hematocrit trend for this patient {person_id} during the last 5 years?
+How did the patient {person_id}'s Platelet Count change over the course of their inpatient visit?
+Can you track the Neutrophil Count values of patient {person_id} in their last 3 visits and describe the pattern?
+What trajectory did Lymphocyte Count of patient {person_id} follow?
+What was the INR trend for this patient {person_id} in the last three years?
+How did the patient {person_id}'s D-dimer change over the course of their inpatient visit?
+Can you track the BUN values of patient {person_id} in all visits and describe the pattern?
+What trajectory did creatinine follow for patient {person_id} during this patient's last visit?
+What was the glucose trend for this patient {person_id} during their inpatient stay?
+How did the patient {person_id}'s Troponin I change over the last 6 months?
+Can you track the Troponin T values of patient {person_id} from their last inpatient visit and describe the pattern?
+Any abnormal glucose of this patient {person_id} over the past year?
+What was the BNP trend for this patient {person_id} during the last two weeks?
+How did the patient {person_id}'s ESR change over the course of their last admission, and what is the admission type?
+Can you track the Procalcitonin values of patient {person_id} and describe the pattern?
+What trajectory did Magnesium follow during this patient {person_id}'s last inpatient visit?
+What was the entire Calcium trend for this patient {person_id} in the last visit, if they have any in the last visit?
+How did the patient {person_id}'s Phosphate change over the last year?
+Can you track the GGT values of patient {person_id} over the last year and describe the pattern?
+What trajectory did albumin follow during this patient {person_id}'s last 3 months?
+What was the Ammonia value for this patient {person_id} during their ER visit?
+How did the patient {person_id}'s aPTT change over the last year?
+Can you track the blood sugar values from admission to discharge and describe the pattern for patient {person_id}?
+What trajectory did Amylase follow during this patient {person_id}'s last visit?
+What was the Lipase trend for this patient {person_id} during their ED visit?
+How did the patient {person_id}'s Triglycerides change over the course of their inpatient admission?
+Can you track the creatinine values from admission to discharge and describe the pattern for patient {person_id} during their last admission?
+How did the patient {person_id}'s sodium change over the course of their last visit?
+Can you track the Total Protein values of patient {person_id} from last admission to discharge and describe the pattern?
+What trajectory did CRP follow during this patient {person_id}'s ER treatment?
+What trajectory did vancomycin follow during this patient {person_id}'s ER visit?
+What was the digoxin trend for this patient {person_id} during their last inpatient visit?
+What were the first and last days of administration of Norepinephrine for patient {person_id}, and how many total administrations occurred within this interval?
+What were the first and last days of administration of Epinephrine for patient {person_id}, and how many total administrations occurred within this interval?
+What were the first and last days of administration of Enoxaparin for patient {person_id}, and how many total administrations occurred within this interval?
+What were the first and last days of administration of Heparin for patient {person_id}, and how many total administrations occurred within this interval?
+What were the first and last days of administration of Albuterol for patient {person_id}, and how many total administrations occurred within this interval?
+What were the first and last days of administration of Heparin for patient {person_id}, and how many total administrations occurred within this interval?
+What were the first and last days of administration of Enoxaparin for patient {person_id}, and how many total administrations occurred within this interval?
+What were the first and last days of administration of Clopidogrel for patient {person_id}, and how many total administrations occurred within this interval?
+What were the first and last days of administration of Furosemide for patient {person_id}, and how many total administrations occurred within this interval?
+What were the first and last days of administration of Albuterol for patient {person_id}, and how many total administrations occurred within this interval?
+What were the first and last days of administration of Spironolactone for patient {person_id}, and how many total administrations occurred within this interval?
+Can you provide the dosing schedule of Morphine during the ER visit for patient {person_id}, including any changes in dose over time?
+Can you provide the dosing schedule of Hydromorphone during the inpatient admission for patient {person_id}, including any changes in dose over time?
+Can you provide the dosing schedule of Calcium Gluconate during the inpatient visit for patient {person_id}, including any changes in dose over time?
+Can you provide the dosing schedule of Vancomycin for patient {person_id} for their last visit, including any changes in dose over time?
+Can you provide the dosing schedule of Piperacillin-Tazobactam for patient {person_id} during the ER visit, including any changes in dose over time?
+Can you provide the dosing schedule of Ceftriaxone for patient {person_id} during the ER visit, including any changes in dose over time?
+Can you provide the dosing schedule of Cefazolin for patient {person_id} during the outpatient visit, including any changes in dose over time?
+Can you provide the dosing schedule of Cefazolin for patient {person_id} during the ER visit, including any changes in dose over time?
+Can you provide the dosing schedule of Vancomycin for patient {person_id} during the last visit, including any changes in dose over time?
+Can you provide the dosing schedule of Fluconazole for patient {person_id} in the visit that happened within 12 months, including any changes in dose over time?
+Can you provide the dosing schedule of Fluconazole for patient {person_id} during the ER admission, including any changes in dose over time?
+Can you provide the dosing schedule of Metoprolol for patient {person_id} during the past 12 years, including any changes in dose over time?
+Can you provide the dosing schedule of Metoprolol for patient {person_id} during the ER visit, including any changes in dose over time?
+Can you provide the dosing schedule of Furosemide for patient {person_id} during the last ER visit, including any changes in dose over time?
+Can you provide the dosing schedule of Furosemide for patient {person_id} during the last inpatient visit, including any changes in dose over time?
+Can you provide the dosing schedule of Prednisone for patient {person_id} during the last admission, including any changes in dose over time?
+Can you provide the dosing schedule of Prednisone for patient {person_id} during the ER admission, including any changes in dose over time?
+Can you provide the dosing schedule of Budesonide for patient {person_id} during the inpatient admission, including any changes in dose over time?
+Can you provide the dosing schedule of Budesonide for patient {person_id} during the ER admission, including any changes in dose over time?
+Can you provide the dosing schedule of Vancomycin for patient {person_id} during the ER visit, including any changes in dose over time?
+Did the dosage of Midazolam for patient {person_id} ever exceed 5 mg in a single administration?
+Did the dosage of Propofol for patient {person_id} ever exceed 500 mg/day?
+Did the dosage of Lorazepam for patient {person_id} ever exceed 4 mg in a single administration?
+Did the dosage of Fentanyl for patient {person_id} ever exceed 1.7 mg/day?
+Did the dosage of Aspirin for patient {person_id} ever exceed 325 mg/day?
+Did the dosage of Apixaban for patient {person_id} ever exceed 5 mg/day?
+Did the dosage of Warfarin for patient {person_id} ever exceed 10 mg/day?
+Did the dosage of Aspirin for patient {person_id} ever exceed 162 mg in a single administration?
+Did the dosage of Rocuronium for patient {person_id} ever exceed 84 mg in a single administration?
+Did the White Blood Cell Count decrease consistently after piperacillin–tazobactam treatment for patient {person_id}, and how many days did it take to normalize?
+How did creatinine levels change in the days following initiation of vancomycin therapy for patient {person_id}?
+What was the trajectory of platelet count during and after heparin administration for patient {person_id}, and what is the time for the measurement and drug?
+Did lactate levels decrease to a value < 2 mmol/L after starting norepinephrine for patient {person_id}, and what is the time for the lab and drug?
+How did ALT levels change after piperacillin-tazobactam administration for patient {person_id}, and what is the time for every record?
+Did procalcitonin decrease consistently after piperacillin-tazobactam treatment for patient {person_id}, and what is the time for labs and drugs?
+How did the INR change in the days following heparin administration for patient {person_id}, and what is the time for every drug and lab?
+How did serum sodium levels change during norepinephrine infusion for patient {person_id}, and what is the time and value for every lab and drug?
+What was the lactate trajectory after norepinephrine administration for patient {person_id}?
+What was the trajectory of hemoglobin during aspirin administration for patient {person_id}?
+Did AST levels increase during lorazepam administration for patient {person_id}? List all times and values for labs and drugs.
+How did potassium levels change during furosemide therapy, and did they reach normal thresholds after discontinuation for patient {person_id}? List all the drugs and labs.
+Did osmolality increase after furosemide treatment, and how did it evolve over days for patient {person_id}? List all times and values for labs and drugs.
+What was the magnesium trend during furosemide administration for patient {person_id}? List all the times and values for these drugs and labs.
+How did calcium values evolve after calcium gluconate administration for patient {person_id}? List all the times and values for these labs and drugs.
+What was the troponin I trend during heparin therapy for patient {person_id}? List all the times and values for these labs and drugs.
+How did potassium levels change in the days following spironolactone administration for patient {person_id}? List all the times and values for these labs and drugs.
+What was the trajectory of white blood cell count after vancomycin initiation for patient {person_id}, and did it normalize over time? List all the times and values for these labs and drugs.
+Did serum glucose increase after dexamethasone administration for patient {person_id}, and how did it trend during therapy?
+How did hemoglobin values change after taking ferrous sulfate for patient {person_id}, and how long were Hemoglobin levels > 7 g/dl?
