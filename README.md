@@ -18,9 +18,6 @@ rag_database_pipeline/
 │   └── tableinfos/               # Individual table info files
 ├── cache/                        # Cache directory for indexes
 │   └── table_index_dir/          # Vector store indexes
-├── docs/                         # Documentation
-│   ├── CHANGELOG.md              # Change log
-│   └── MIGRATION_GUIDE.md        # Migration guide
 └── README.md                     # This file
 ```
 
