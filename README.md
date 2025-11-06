@@ -229,16 +229,3 @@ python 2_generate_descriptions.py
 - **LlamaIndex**: https://docs.llamaindex.ai/
 - **MIMIC Database**: https://mimic.mit.edu/
 
-## 📝 License
-
-This project follows the same license as your main EHR-QA project.
-
-## 🤝 Contributing
-
-For questions or contributions, please refer to the main project repository.
-
----
-
-**Last Updated**: 2025-11-06  
-**Version**: 2.0.0 (BGE Embeddings)
-
