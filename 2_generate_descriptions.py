@@ -41,23 +41,22 @@ class SQLiteTableDescriptionGenerator:
         
         # Define prompt template for table description
         self.prompt_template = PromptTemplate(
-            template="""
-            Please provide a clear and concise description of the database table based on its structure:
-            
-            Table Name: {table_name}
-            
-            Columns:
-            {columns}
-            
-            Primary Keys: {primary_keys}
-            Foreign Keys: {foreign_keys}
-            
-            Generate a comprehensive description that explains:
-            1. The purpose of this table
-            2. The meaning of key fields
-            
-            Description:
-            """
+            template="""Please provide a clear and concise description of the database table based on its structure:
+
+Table Name: {table_name}
+
+Columns:
+{columns}
+
+Primary Keys: {primary_keys}
+Foreign Keys: {foreign_keys}
+
+Generate a comprehensive description that explains:
+1. The purpose of this table
+2. The meaning of key fields
+
+Description:
+"""
         )
         
     def get_table_info(self, table_name: str) -> Dict:
@@ -145,7 +144,7 @@ class SQLiteTableDescriptionGenerator:
             resp = client.chat.completions.create(
                 model=self.openai_model,
                 messages=[{"role": "user", "content": prompt}],
-                temperature=0.7,
+                temperature=0,  # paper: decoding temperature fixed at 0 for reproducibility
                 max_tokens=512,
             )
             # response content lives in resp.choices[0].message.content
