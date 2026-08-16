@@ -5,12 +5,11 @@ model conveys the same factual value(s). Judged by value and meaning, not surfac
 form. Returns "CORRECT" / "INCORRECT" plus a short reason.
 
 Usage:
-    from importlib import import_module
-    judge = import_module("4_llm_judge")
-    verdict, reason = judge.judge_answer(question, gold, pred)
+    import llm_judge
+    verdict, reason = llm_judge.judge_answer(question, gold, pred)
 
     # or score a list of records [{"question","gold","pred"}, ...]
-    acc, results = judge.score(records)
+    acc, results = llm_judge.score(records)
 
 Env: OPENAI_API_KEY (required), OPENAI_MODEL (default gpt-4o).
 """

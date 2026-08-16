@@ -6,10 +6,10 @@ Patient-level clinical question answering over EHRs. The pipeline queries **stru
 
 | Step | File | What it does |
 |------|------|--------------|
-| 1 | `1_create_database.py` | Build a SQLite DB from CSV files |
-| 2 | `2_generate_descriptions.py` | LLM generates a description per table → `sqlite_table_descriptions.json` |
-| 3 | `3_rag_qa.ipynb` | RAG Q&A: table retrieval → text-to-SQL (+retry) → structure-aware note retrieval → answer synthesis |
-| eval | `4_llm_judge.py` | LLM-as-Judge: grade a model answer against the gold answer by value/meaning |
+| 1 | `create_database.py` | Build a SQLite DB from CSV files |
+| 2 | `generate_descriptions.py` | LLM generates a description per table → `sqlite_table_descriptions.json` |
+| 3 | `rag_qa.ipynb` | RAG Q&A: table retrieval → text-to-SQL (+retry) → structure-aware note retrieval → answer synthesis |
+| eval | `llm_judge.py` | LLM-as-Judge: grade a model answer against the gold answer by value/meaning |
 
 ## Models
 
@@ -20,7 +20,7 @@ Patient-level clinical question answering over EHRs. The pipeline queries **stru
 
 ## Dataset switch
 
-In `3_rag_qa.ipynb`, one variable picks both the text-to-SQL and answer-synthesis prompts:
+In `rag_qa.ipynb`, one variable picks both the text-to-SQL and answer-synthesis prompts:
 
 ```python
 DATASET = "ynhhqa"  # "ynhhqa" | "drugehrqa" | "ehrsql" | "ehrnoteqa"
@@ -34,11 +34,11 @@ DATASET = "ynhhqa"  # "ynhhqa" | "drugehrqa" | "ehrsql" | "ehrnoteqa"
 ```bash
 pip install -r requirements.txt
 
-python 1_create_database.py          # build DB (edit paths inside)
+python create_database.py            # build DB (edit paths inside)
 export OPENAI_API_KEY=...             # for step 2
-python 2_generate_descriptions.py    # generate table descriptions
+python generate_descriptions.py      # generate table descriptions
 
-jupyter notebook 3_rag_qa.ipynb      # run Q&A (set Azure vars in the notebook)
+jupyter notebook rag_qa.ipynb        # run Q&A (set Azure vars in the notebook)
 ```
 
 ## Notes
